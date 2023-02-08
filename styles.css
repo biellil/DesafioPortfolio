@@ -26,7 +26,7 @@ background-color: #302F3D;
 width: 348px;
 height: 349px;
 left: 40px;
-top: 978px;
+top: 740px;
 background-color: #302F3D;
 
 }
@@ -35,13 +35,13 @@ background-color: #302F3D;
     width: 348px;
     height: 352px;
     left: 40px;
-    top: 1357px;
-    background-color: #302F3D;
+    top: 1120px;
+    background-color: #302F3D;;
 
     }
 .myProjects{
     position: absolute;
-width: 952px;
+width: 86%;
 height: 86px;
 left: 444px;
 top: 40px;
@@ -67,20 +67,20 @@ background-color: #302F3D;
     }
 #projt01{
     position: absolute;
-width: 461px;
-height: 186px;
-left: 444px;
+width: 861px;
+height: 286px;
+left: 0px;
 top: 157px;
-background-color: #302F3D;
+background-color: #372eb8;
 
 }
 #projt02{
     position: absolute;
-    width: 461px;
-    height: 186px;
-    left: 928px;
+    width: 861px;
+    height: 286px;
+    left: 900px;
     top: 157px;
-background-color: #302F3D;
+background-color: #14962a;
 
 }
 #profileUser{
