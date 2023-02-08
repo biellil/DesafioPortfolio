@@ -1,0 +1,97 @@
+.profile{
+    position: absolute;
+width: 348px;
+height: 292px;
+left: 40px;
+top: 40px;
+background-color: #302F3D;
+}
+.all{
+    position: relative;
+width: 1440px;
+height: 1767px;
+
+}
+.link{
+    position: absolute;
+width: 348px;
+height: 348px;
+left: 40px;
+top: 362px;
+background-color: #302F3D;
+
+}
+.tech{
+    position: absolute;
+width: 348px;
+height: 349px;
+left: 40px;
+top: 978px;
+background-color: #302F3D;
+
+}
+.education{
+    position: absolute;
+    width: 348px;
+    height: 352px;
+    left: 40px;
+    top: 1357px;
+    background-color: #302F3D;
+
+    }
+.myProjects{
+    position: absolute;
+width: 952px;
+height: 86px;
+left: 444px;
+top: 40px;
+background-color: #302F3D;
+
+}
+.recint{
+    position: absolute;
+width: 952px;
+height: 86px;
+left: 444px;
+top: 373px;
+background-color: #302F3D;
+
+}
+.post{
+    position: absolute;
+    width: 952px;
+    height: 201px;
+    left: 444px;
+    top: 489px;
+    background-color: #302F3D;
+    }
+#projt01{
+    position: absolute;
+width: 461px;
+height: 186px;
+left: 444px;
+top: 157px;
+background-color: #302F3D;
+
+}
+#projt02{
+    position: absolute;
+    width: 461px;
+    height: 186px;
+    left: 928px;
+    top: 157px;
+background-color: #302F3D;
+
+}
+#profileUser{
+    box-sizing: border-box;
+
+position: absolute;
+width: 128px;
+height: 128px;
+left: 149px;
+top: 72px;
+
+background: url(image.png);
+border: 2px solid #00FF00;
+}
