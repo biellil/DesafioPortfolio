@@ -27,6 +27,7 @@ a{
     background: #302F3D;
 box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 20px;
+margin-bottom: 30px;
    
 }
 .profile{
@@ -36,7 +37,7 @@ border-radius: 20px;
     height: 292px;
     left: 40px;
     top: 40px;
-    margin-bottom: 30px;
+    
     
 
 
@@ -107,18 +108,12 @@ margin-bottom: 30px;
 .link .globe{
     margin-top: 30px;
 }
-
-
-.tech{
-   
-  
-    margin-bottom: 30px;
-  
-   
-  
+.containerTec{
+    display: flex;
 }
 
-.tech h1{
+
+.tech-info h1{
 
 width: 121px;
 height: 26px;
@@ -129,6 +124,10 @@ font-weight: 700;
 font-size: 20px;
 line-height: 25px;
 margin-left: 20px;
+margin-bottom: 30px;
+
+
+
 
 }
 .tech-container a  {
@@ -139,19 +138,62 @@ margin-left: 20px;
     border-radius: 30px;
     margin-bottom: 15px;
     margin-left: 30px;
+    
 }
+
 .tech-container h2{
     font-style: normal;
     font-weight: 700;
     font-size: 10px;
     line-height: 13px;
-    margin-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
     color: #000000;
     text-align: center;
 }
-.tech-container #java{
+.tech2-container a  {
+    display: flex;
+    width: 86px;
+    height: 24px;
+    background: #CB92B1;
+    border-radius: 30px;
+    margin-bottom: 15px;
     margin-left: 15px;
-}    
+    
+}
+.tech2-container h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+    text-align: center;
+}
+.tech3-container a  {
+    display: flex;
+    width: 86px;
+    height: 24px;
+    background: #CB92B1;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    
+}
+.tech3-container h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+    text-align: center;
+}
+
+
+
 
     
 .Experiences {
