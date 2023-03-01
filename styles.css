@@ -204,28 +204,41 @@ margin-bottom: 30px;
 
 
 .Experiences-container  {
-   height: auto;
-    margin-bottom: 30px;
+  
+   
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
 
 }
 .Experiences-container h2{
-    margin-left: 10px;
-    width: 141px;
-    height: 26px;
-    left: 60px;
-    top: 1008px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 25px;
+    margin-left: 20px;
 }
-.Experiences-container  h3{
-    list-style: disc;
+.Experiences-container li{
+    margin-left: 40px;
+    
+}
+.Experiences-container li h3{
+    font-style: normal;
+    font-size: 15px;
+    line-height: 15px;
+    color: #837E9F;
+    width: auto;
+height:0.01px;
+}
+.Experiences-container li h4{
+    margin-left: 10px;
+    width: auto;
+    height:10px;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 25px;
+    color: #837E9F;
+    
 }
 
 
 .Education{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     position: flex;
     width: 348px;
     height: 352px;
@@ -234,8 +247,38 @@ margin-bottom: 30px;
    margin-bottom: 50px;
 
 }
-
-
-
+.Education h2{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+color: #837E9F;
+width: 141px;
+height: 26px;
+}
+.Education li {
+    
+    margin-left: 40px;
+}
+.Education li h3{
+     font-style: normal;
+    font-size: 15px;
+    line-height: 15px;
+    color: #837E9F;
+    width: auto;
+height:1px;
+}
+.Education li h4{
+      margin-left: 10px;
+    width: auto;
+    height:10px;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 25px;
+    color: #837E9F;
+    
+}
 
 
