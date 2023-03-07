@@ -100,6 +100,10 @@ margin-bottom: 30px;
 .link{
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
+.link a h3{
+    margin-left: 30px;
+    margin-top: -25px;
+}
 
 .link a{
     
