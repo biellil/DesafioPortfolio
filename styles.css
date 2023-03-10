@@ -14,6 +14,11 @@ a{
     
     text-decoration:none;
 }
+.box{
+    background: #302F3D;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
 .navebar-container{
     display: flex ;
     flex-direction: column;
@@ -24,15 +29,15 @@ a{
 .navebar-container div{
    
     list-style: none;
-    background: #302F3D;
+    
 
-border-radius: 20px;
+
 margin-bottom: 30px;
    
 }
 .profile{
  
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
     width: 348px;
     height: 292px;
     left: 40px;
@@ -87,7 +92,6 @@ line-height: 16px;
 
 }
 .link{
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
     width: 348px;
@@ -97,9 +101,7 @@ line-height: 16px;
 margin-bottom: 30px;
 
 }
-.link{
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
+
 .link a h3{
     margin-left: 30px;
     margin-top: -25px;
@@ -128,9 +130,7 @@ margin-bottom: 30px;
     display: flex;
     box-shadow:none;
 }
-.tech-info{
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
+
 
 .tech-info h2{
 
@@ -211,16 +211,6 @@ margin-bottom: 30px;
     text-align: center;
 }
 
-
-
-
-.Experiences-container  {
-  
-   
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    
-
-}
 .Experiences-container h2{
     margin-left: 20px;
 }
@@ -249,8 +239,7 @@ height:0.01px;
 
 
 .Education{
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    position: flex;
+     position: flex;
     width: 348px;
     height: 352px;
     left: 40px;
@@ -292,4 +281,8 @@ height:1px;
     
 }
 
-
+.myProjects{
+    position: absolute;
+    width: 500px;
+    height: 100px;
+}
