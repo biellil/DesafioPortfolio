@@ -30,11 +30,7 @@ a{
     height: 100%;
 }
 .navebar-container div{
-   
     list-style: none;
-    
-
-
 margin-bottom: 30px;
    
 }
@@ -288,7 +284,7 @@ height:1px;
 }
 
 .myProjects{
-   position: absolute;
+
     width: 952px;
     height: 86px;
     left: 448px;
@@ -297,33 +293,54 @@ height:1px;
 
 
 }
-.myProjects a h2{
-    margin-left: 30px;
-    margin-top: 30px;
+
+
+.main{
+  
+  
+  
+    width: auto;
+    height: auto;
+    top: -25px;
+}
+
+.myProjects h2{
+
+    width: 121px;
+    height: 26px;
+    left: 478px;
+    top: 70px;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 25px;
-    display: inline-block;
-
 }
 .myProjects a h4{
-    margin-left: 740px;
-    width: 71px;
-    height: 18px;
     display: inline-block;
+    margin-left: 730px;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 18px;
+
+
+}
+
+.ptj{
+    display: flex;
+
 }
 .projects{
-    width: 461px;
-    height: 186px;
-    margin-bottom: 30px;
+    display: inline-block;
+    margin-top: 30px;
+    width: auto;
+    height: auto;
+    
 }
 .projects2{
-    width: 461px;
-    height: 186px;
-    margin-bottom: 30px;
+    display: inline-block;
+    margin-top: 30px;
+    width: auto;
+    height: auto;
+    
 }
