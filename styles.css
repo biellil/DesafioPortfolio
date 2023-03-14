@@ -289,9 +289,6 @@ line-height: 18px;
     display: flex ;
   margin-top: 50px;
 
-
-        
- 
 }
 .projects{
     width: 461px;
@@ -319,16 +316,18 @@ line-height: 18px;
     color: #837E9F;
     width: 79px;
     height: 17px;
+    margin-left: 10px;
   }
   .repo-item h3{
-    width: 92px;
-    height: 16px;
+    position: relative;
+    top: -15px;
+    width: auto;
+    height: auto;
     font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 18px;
 
-color: #837E9F;
 }
 .repo-item svg{
     width: 20px;
@@ -336,7 +335,18 @@ color: #837E9F;
     bottom: 12.5%;
    color: #837E9F;
 }
-
+.arquivo{
+    margin-top: 31px;
+    margin-left: 30px;
+}
+.linguagem{
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 339px;
+ 
+}
   .language-circle {
     width: 12px;
     height: 12px;
@@ -345,21 +355,21 @@ color: #837E9F;
   }
   
   .language-javascript {
-    position: absolute;
+    
     background-color: #f1e05a;
   }
   
   .language-python {
-    position: absolute;
+   
     background-color: #3572a5;
   }
   
   .language-java {
-    position: absolute;
+    
     background-color: #b07219;
   }
 .language-html{
-    position: absolute;
+    
     background-color: #e34c26;
 }
   
