@@ -22,65 +22,48 @@ a{
     border-radius: 20px;
     box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
 }
-.navebar-container{
+.navebar-contermer{
     display: flex ;
     flex-direction: column;
     padding: 0.5em 0;
     width: 348px;
     height: 100%;
 }
-.navebar-container div{
-    list-style: none;
+.navebar-contermer div{
+list-style: none;
 margin-bottom: 30px;
    
 }
 .profile{
- 
-    
     width: 348px;
     height: 292px;
     left: 40px;
     top: 40px;
-    
-    
-    
-
-
 }.profile a{
     position: absolute;
     left: 110px;
      top: 32px;
-     
-  
 }
 .foto {
-    
     border-radius: 50em;
     padding: 64px 64px;
     background: url(image.png);
     border: 2px solid #00FF00;
-
- 
 }
 
 .profile h1{ 
     position: absolute;
-   
     width: 196px;
     height: 26px;
     left: 110px;
-
     top: 160px;
     font-style: normal;
 font-weight: 700;
 font-size: 23px;
 line-height: 29px;
-
-
 }
 .profile h3{
     position: absolute;
-
 height: 17px;
 left: 120px;
 top: 206px;
@@ -88,7 +71,6 @@ font-style: normal;
 font-weight: 300;
 font-size: 13px;
 line-height: 16px;
-
 }
 .link{
     display: flex;
@@ -98,34 +80,28 @@ line-height: 16px;
     left: 40px;
     top: 362px;
 margin-bottom: 30px;
-
 }
 
 .link a h3{
     margin-left: 30px;
     margin-top: -25px;
-    
 }
 
 .link a{
-    
     margin-bottom: 20px;
     margin-left: 40px;
     width: 24px;
     height: 24px;
     color:  #837E9F;
-
 }
 .link .linkedin h3{
     width: 150px;
     height: 100px;
- 
-
 }
 .link .globe{
     margin-top: 30px;
 }
-.containerTec{ 
+.contermerTec{ 
     display: flex;
     box-shadow:none;
 }
@@ -148,7 +124,7 @@ margin-bottom: 30px;
 
 
 }
-.tech-container a  {
+.tech-contermer a  {
     display: flex;
     width: 86px;
     height: 24px;
@@ -159,7 +135,7 @@ margin-bottom: 30px;
     
 }
 
-.tech-container h3{
+.tech-contermer h3{
     font-style: normal;
     font-weight: 700;
     font-size: 10px;
@@ -169,7 +145,7 @@ margin-bottom: 30px;
     color: #000000;
     text-align: center;
 }
-.tech2-container a  {
+.tech2-contermer a  {
     display: flex;
     width: 86px;
     height: 24px;
@@ -179,7 +155,7 @@ margin-bottom: 30px;
     margin-left: 15px;
     
 }
-.tech2-container h3{
+.tech2-contermer h3{
     font-style: normal;
     font-weight: 700;
     font-size: 10px;
@@ -189,7 +165,7 @@ margin-bottom: 30px;
     color: #000000;
     text-align: center;
 }
-.tech3-container a  {
+.tech3-contermer a  {
     display: flex;
     width: 86px;
     height: 24px;
@@ -199,7 +175,7 @@ margin-bottom: 30px;
     margin-left: 15px;
     
 }
-.tech3-container h3{
+.tech3-contermer h3{
     font-style: normal;
     font-weight: 700;
     font-size: 10px;
@@ -210,15 +186,15 @@ margin-bottom: 30px;
     text-align: center;
 }
 
-.Experiences-container h2{
+.Experiences-contermer h2{
     margin-left: 20px;
  
 }
-.Experiences-container li{
+.Experiences-contermer li{
     margin-left: 40px;
     
 }
-.Experiences-container li h3{
+.Experiences-contermer li h3{
     font-style: normal;
     font-size: 15px;
     line-height: 15px;
@@ -228,7 +204,7 @@ height:0.01px;
 margin-top:25px ;
 
 }
-.Experiences-container li h4{
+.Experiences-contermer li h4{
     margin-left: 10px;
     width: auto;
     height:10px;
@@ -249,17 +225,7 @@ margin-top:25px ;
    margin-bottom: 50px;
 
 }
-.Education h2{
-    margin-top: 30px;
-    margin-left: 20px;
-    font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 25px;
-color: #837E9F;
-width: 141px;
-height: 26px;
-}
+
 .Education li {
     
     margin-left: 40px;
@@ -282,65 +248,58 @@ height:1px;
     color: #837E9F;
     
 }
+.main{
+    width: auto;
+    height: auto;
+}
 
 .myProjects{
 
     width: 952px;
     height: 86px;
-    left: 448px;
+    left: 418px;
     top: 40px;
+    position: absolute;
 
 
 
 }
-
-
-.main{
-  
-  
-  
-    width: auto;
-    height: auto;
-    top: -25px;
-}
-
-.myProjects h2{
-
-    width: 121px;
-    height: 26px;
-    left: 478px;
-    top: 70px;
+.myProjects  h2{
+        margin-left: 30px;
+    margin-top: 30px;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 25px;
+    display: inline-block;
+
+
 }
 .myProjects a h4{
+    margin-left: 740px;
+    width: 71px;
+    height: 18px;
     display: inline-block;
-    margin-left: 730px;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 18px;
-
-
 }
+.contermer{
+    display: flex ;
+  margin-top: 50px;
 
-.ptj{
-    display: flex;
 
+        
+ 
 }
 .projects{
-    display: inline-block;
-    margin-top: 30px;
-    width: auto;
-    height: auto;
-    
+    width: 461px;
+    height: 186px;
 }
 .projects2{
-    display: inline-block;
-    margin-top: 30px;
-    width: auto;
-    height: auto;
-    
+      margin-left: 30px;
+    width: 461px;
+    height: 186px;
+   
 }
