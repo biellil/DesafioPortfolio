@@ -20,6 +20,7 @@ h1,h2,h3,h4{
     color: #837E9F;
 }
 aside{
+    width: 348px;
     margin-left: 20px;
 }
 a{
@@ -32,14 +33,16 @@ a{
     box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
 }
 .navebar-contermer{
+ 
     display: flex ;
     flex-direction: column;
     padding: 0.5em 0;
     width: 348px;
-    height: 100%;
+    height: auto;
 }
 .navebar-contermer div{
 list-style: none;
+
 margin-bottom: 30px;
    
 }
@@ -115,7 +118,10 @@ margin-bottom: 30px;
     box-shadow:none;
 }
 
-
+.tech-info{
+    width: 348px;
+    height: auto;
+}
 .tech-info h2{
 
 width: 121px;
@@ -187,6 +193,9 @@ margin-bottom: 30px;
     margin-right: auto;
     color: #000000;
     text-align: center;
+}
+.Experiences-contermer{
+    width: 348px;
 }
 
 .Experiences-contermer h2{
