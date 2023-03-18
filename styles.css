@@ -269,17 +269,21 @@ height:1px;
     
 }
 .main{
+    display: flex;
     width: auto;
     height: auto;
+    position: absolute;
+    left: 418px;
+    top: 40px;
+    flex-direction: column;
 }
 
 .myProjects{
     
     width: 952px;
     height: 86px;
-    left: 418px;
-    top: 40px;
-    position: absolute;
+
+  
 
 }
 .flex{
