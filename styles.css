@@ -27,6 +27,20 @@ a{
     
     text-decoration:none;
 }
+.c-loader {
+    animation: is-rotating 1s infinite;
+    border: 6px solid #22212C;
+    border-radius: 50%;
+    border-top-color: #2d2c3b;
+    height: 50px;
+    width: 50px;
+  }
+  
+  @keyframes is-rotating {
+    to {
+      transform: rotate(1turn);
+    }
+  }
 .box{
     background: #302F3D;
     border-radius: 20px;
