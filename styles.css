@@ -88,7 +88,7 @@ margin-bottom: 30px;
         border-color: #FF00FF;
     }
   }
-  .foto img{
+  .foto a img{
     position: absolute;
     left: -0.1px;
      top: 0.1px;
