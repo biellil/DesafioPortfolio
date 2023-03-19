@@ -60,10 +60,12 @@ margin-bottom: 30px;
     top: 40px;
 }.profile a{
     position: absolute;
-    left: 110px;
-     top: 32px;
+    left: 120px;
+     top: 52px;
 }
 .foto {
+    width: 22px;
+    height: 22px;
     border-radius: 50em;
     padding: 64px 64px;
     background: url(image.png);
@@ -75,18 +77,32 @@ margin-bottom: 30px;
     0% {
       border-color: #00FF00;
     }
-    100% {
-      border-color: #FF00FF;
+    25%{
+        border-color:#eaff00;
+    }
+    50% {
+      border-color:#00f2ff;
+    }
+
+    100%{
+        border-color: #FF00FF;
     }
   }
-  
+  .foto img{
+    position: absolute;
+    left: -0.1px;
+     top: 0.1px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50em;
+  }
 
 .profile h1{ 
     position: absolute;
     width: 196px;
     height: 26px;
-    left: 110px;
-    top: 160px;
+    left: 130px;
+    top: 190px;
     font-style: normal;
 font-weight: 700;
 font-size: 23px;
@@ -95,8 +111,8 @@ line-height: 29px;
 .profile h3{
     position: absolute;
 height: 17px;
-left: 120px;
-top: 206px;
+left: 140px;
+top: 230px;
 font-style: normal;
 font-weight: 300;
 font-size: 13px;
