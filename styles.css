@@ -19,10 +19,7 @@ body{
 h1,h2,h3,h4{
     color: #837E9F;
 }
-aside{
-    width: 348px;
-    margin-left: 20px;
-}
+
 a{
     
     text-decoration:none;
@@ -60,7 +57,7 @@ margin-bottom: 30px;
     top: 40px;
 }.profile a{
     position: absolute;
-    left: 120px;
+    left: 100px;
      top: 52px;
 }
 .foto {
@@ -101,7 +98,7 @@ margin-bottom: 30px;
     position: absolute;
     width: 196px;
     height: 26px;
-    left: 130px;
+    left: 120px;
     top: 190px;
     font-style: normal;
 font-weight: 700;
@@ -111,7 +108,7 @@ line-height: 29px;
 .profile h3{
     position: absolute;
 height: 17px;
-left: 140px;
+left: 130px;
 top: 230px;
 font-style: normal;
 font-weight: 300;
