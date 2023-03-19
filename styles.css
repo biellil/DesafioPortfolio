@@ -296,7 +296,7 @@ height:1px;
 
 .myProjects{
     
-    width: 920px;
+    width: 890px;
     height: 86px;
 }
 .flex{
@@ -306,6 +306,7 @@ height:1px;
 
 .myProjects  h2{
     position: relative;
+    width: 300px;
     top: 14px;
     margin-left: 20px;
     font-style: normal;
@@ -315,9 +316,10 @@ height:1px;
 }
 .myProjects a h4{
     position: relative;
+    width: 79px;
     top: 14px;
-    margin-left: 720px;
-    height: 18px;
+    margin-left: 520px;
+    height: auto;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
