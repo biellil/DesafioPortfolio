@@ -27,14 +27,7 @@ a{
     
     text-decoration:none;
 }
-.c-loader {
-    animation: is-rotating 1s infinite;
-    border: 6px solid #22212C;
-    border-radius: 50%;
-    border-top-color: #2d2c3b;
-    height: 50px;
-    width: 50px;
-  }
+
   
   @keyframes is-rotating {
     to {
@@ -51,7 +44,7 @@ a{
     display: flex ;
     flex-direction: column;
     padding: 0.5em 0;
-    width: 348px;
+    width: 329px;
     height: auto;
 }
 .navebar-contermer div{
@@ -61,7 +54,7 @@ margin-bottom: 30px;
    
 }
 .profile{
-    width: 348px;
+    width: auto;
     height: 292px;
     left: 40px;
     top: 40px;
@@ -101,7 +94,7 @@ line-height: 16px;
 .link{
     display: flex;
     flex-direction: column;
-    width: 348px;
+    width: auto;
     height: 348px;
     left: 40px;
     top: 362px;
@@ -133,7 +126,7 @@ margin-bottom: 30px;
 }
 
 .tech-info{
-    width: 348px;
+    width: auto;
     height: auto;
 }
 .tech-info h2{
@@ -209,7 +202,7 @@ margin-bottom: 30px;
     text-align: center;
 }
 .Experiences-contermer{
-    width: 348px;
+    width: auto;
 }
 
 .Experiences-contermer h2{
@@ -251,8 +244,8 @@ margin-top:25px ;
 
 .Education{
      position: flex;
-    width: 348px;
-    height: 352px;
+     width: auto;;
+    height: auto;
     left: 40px;
     top: 1357px;
    margin-bottom: 50px;
@@ -296,14 +289,14 @@ height:1px;
     width: auto;
     height: auto;
     position: absolute;
-    left: 418px;
+    left: 380px;
     top: 40px;
     flex-direction: column;
 }
 
 .myProjects{
     
-    width: 952px;
+    width: 920px;
     height: 86px;
 }
 .flex{
@@ -314,7 +307,7 @@ height:1px;
 .myProjects  h2{
     position: relative;
     top: 14px;
-    margin-left: 30px;
+    margin-left: 20px;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -336,12 +329,12 @@ line-height: 18px;
 
 }
 .projects{
-    width: 461px;
+    width: 431px;
     height: 186px;
 }
 .projects2{
-      margin-left: 30px;
-    width: 461px;
+      margin-left: 20px;
+    width: 431px;
     height: 186px;
    
 }
