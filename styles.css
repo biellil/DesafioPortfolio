@@ -68,7 +68,18 @@ margin-bottom: 30px;
     padding: 64px 64px;
     background: url(image.png);
     border: 2px solid #00FF00;
-}
+    animation: spiral 10s linear infinite;
+  }
+  
+  @keyframes spiral {
+    0% {
+      border-color: #00FF00;
+    }
+    100% {
+      border-color: #FF00FF;
+    }
+  }
+  
 
 .profile h1{ 
     position: absolute;
