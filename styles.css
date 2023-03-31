@@ -65,7 +65,7 @@ margin-bottom: 30px;
     height: 22px;
     border-radius: 50em;
     padding: 64px 64px;
-    background: url(image.png);
+    
     border: 2px solid #00FF00;
     animation: spiral 10s linear infinite;
   }
