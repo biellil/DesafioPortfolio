@@ -27,7 +27,7 @@ fetch(url)
         </div>
         <div class="linguagem">
           <span class="language-circle language-${languageClass}"></span>
-          <h3>${language || "Unknown"}</h3>
+          <h3>${language || ""}</h3>
         </div>      
       `;
       
