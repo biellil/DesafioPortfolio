@@ -25,6 +25,10 @@ export function App() {
     }
 
     fetchRepos();
+
+    const interval = setInterval(fetchRepos, 3000); // Chama a função fetchRepos a cada 5 segundos
+
+    return () => clearInterval(interval); // Limpa o intervalo quando o componente é desmontado
   }, []);
 
   return (
@@ -35,16 +39,13 @@ export function App() {
         <Siderbar></Siderbar>
 
         <section className={stylesPost.post}>
-          <div style={{  }}>
+          <div style={{}}>
             <img
-             
               height="170rem"
               src="https://github-readme-stats.vercel.app/api?username=biellil&show_icons=true&border_color=ffffff00&bg_color=ffffff00&text_color=8d8d99"
-              
-              style={{  colo:'var(--gray-900)'}}
+              style={{ colo: 'var(--gray-900)' }}
             />
             <img
-             
               height="170rem"
               src="https://github-readme-stats.vercel.app/api/top-langs/?username=biellil&repo=github-readme-stats&hide=cMake&border_color=ffffff00&show_icons=true&bg_color=ffffff00&include_all_commits=true&count_private=false&langs_count=5&text_color=8d8d99&layout=donut"
             />
@@ -52,7 +53,7 @@ export function App() {
           {repos.map((repo) => (
             <Post key={repo.id} repo={repo} />
           ))}
-        </section >
+        </section>
       </div>
     </div>
   );
