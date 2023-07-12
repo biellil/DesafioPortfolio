@@ -1,0 +1,43 @@
+.post{
+    display: flex;
+   flex-direction: column;
+   
+   border-radius: 8px;
+ 
+
+   div{
+  
+    padding: 1.5rem 2rem 2rem;
+    background: var(--gray-800);
+    margin-bottom: 2rem;
+    border-radius: 8px;
+   
+   }
+
+   a{
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--gray-100);
+
+    :hover{
+        
+        color: var(--green-500);
+        
+    }
+   }
+   p{
+    color: var(--gray-300);
+    + p{
+        margin-bottom: 0.2rem;
+    }
+   }
+}
+@media(max-width: 768px){
+
+    
+    .post{
+
+      
+    }
+
+}
