@@ -42,12 +42,12 @@ export function App() {
           <div style={{}}>
             <img
               height="170rem"
-              src="https://github-readme-stats.vercel.app/api?username=biellil&show_icons=true&border_color=ffffff00&bg_color=ffffff00&text_color=8d8d99"
+              src="https://github-readme-stats.vercel.app/api?username=biellil&show_icons=true&border_color=ffffff00&bg_color=ffffff00&text_color=8d8d99&include_all_commits=true"
               style={{ colo: 'var(--gray-900)' }}
             />
             <img
               height="170rem"
-              src="https://github-readme-stats.vercel.app/api/top-langs/?username=biellil&repo=github-readme-stats&hide=cMake&border_color=ffffff00&show_icons=true&bg_color=ffffff00&include_all_commits=true&count_private=false&langs_count=5&text_color=8d8d99&layout=donut"
+              src="https://github-readme-stats.vercel.app/api/top-langs/?username=biellil&repo=github-readme-stats&hide=cMake&border_color=ffffff00&show_icons=true&bg_color=ffffff00&count_private=false&langs_count=5&text_color=8d8d99&layout=donut"
             />
           </div>
           {repos.map((repo) => (
