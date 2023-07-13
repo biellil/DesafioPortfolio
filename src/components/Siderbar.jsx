@@ -1,5 +1,5 @@
-import style from './siderbar.module.scss'
-import { PencilLine } from "phosphor-react";
+import style from './siderbar.module.scss';
+import { Skills } from './skills';
 
 export function Siderbar(){
     return (
@@ -11,34 +11,12 @@ export function Siderbar(){
                 <img src="https://github.com/biellil.png" />
                <strong> José Gabriel</strong>
 
-               <span>Web Developer</span> 
+               <span>desenvolvedor Front-End</span> 
             </div>
 
           
-            
-            <footer className={style.skills}>
-               <strong>skills</strong>
-             <div  className={style.container}>
-              <div>
-              <a href="">Git</a>
-              <a href="">Css</a>
-              <a href="">Github</a>
-              <a href="">Javascrip</a>
-              <a href="" >ReactJs</a>
-              </div>
-            
-            
-            
-              
-              <div>
-              <a href="">Html</a>
-              <a href="">Typescript</a>
-              <a href="">FireBase</a>
-              <a href="">Next.Js</a>
-              
-              </div>
-            </div>
-            </footer>
+            <Skills/>
+           
         </aside>
 
     
