@@ -26,8 +26,7 @@ export function App() {
 
     fetchRepos();
 
-    const interval = setInterval(fetchRepos, 3000); // Chama a função fetchRepos a cada 5 segundos
-
+    const interval = setInterval(fetchRepos, 3000);  
     return () => clearInterval(interval); // Limpa o intervalo quando o componente é desmontado
   }, []);
 
